@@ -1,0 +1,72 @@
+<CstmrCdtTrfInitn>
+
+ <GrpHdr>
+
+ <MsgId>1234567890123456</MsgId>
+ <CreDtTm>2024-12-08T12:09:00</CreDtTm>
+ <NbOfTxs>1</NbOfTxs>
+ <CtrlSum>10000.00</CtrlSum>
+
+ <InitgPty>
+ <Nm>BANKBEBB</Nm>
+ </InitgPty>
+
+ </GrpHdr>
+
+
+ <PmtInf>
+
+
+ <PmtInfId>1234567890123456</PmtInfId>
+ <PmtMtd>TRF</PmtMtd>
+ <BtchBookg>false</BtchBookg>
+ <ReqdExctnDt>2024-12-08</ReqdExctnDt>
+
+ <Dbtr>
+ <Nm>John Doe</Nm>
+ <PstlAdr>
+ <StrtNm>123 Main Street</StrtNm>
+ </PstlAdr>
+ </Dbtr>
+
+ <DbtrAcct>
+ <Id>
+ <IBAN>123456789</IBAN>
+ </Id>
+ </DbtrAcct>
+
+ <DbtrAgt>
+ <FinInstnId>
+ <BIC>BANKBEBBAXXX</BIC>
+ </FinInstnId>
+ </DbtrAgt>
+
+ <CdtrAgt>
+ <FinInstnId>
+ <BIC>BANKDEFFXXXX</BIC>
+ </FinInstnId>
+ </CdtrAgt>
+
+ <Cdtr>
+ <Nm>Jane Smith</Nm>
+ <PstlAdr>
+ <StrtNm>456 Elm Street</StrtNm>
+ </PstlAdr>
+ </Cdtr>
+
+ <CdtrAcct>
+ <Id>
+ <IBAN>987654321</IBAN>
+ </Id>
+ </CdtrAcct>
+
+ <RmtInf>
+ <Ustrd>Invoice 12345</Ustrd>
+ </RmtInf>
+
+ <ChrgBr>SHA</ChrgBr>
+
+
+ </PmtInf>
+
+ </CstmrCdtTrfInitn>
